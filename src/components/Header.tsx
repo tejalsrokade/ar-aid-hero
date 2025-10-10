@@ -1,3 +1,5 @@
+import ThemeToggle from "./ThemeToggle";
+
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 header-blur">
@@ -15,6 +17,7 @@ const Header = () => {
           <a href="#signup" className="text-foreground hover:text-primary transition-colors font-medium">
             Signup/Login
           </a>
+          <ThemeToggle />
         </nav>
       </div>
     </header>
